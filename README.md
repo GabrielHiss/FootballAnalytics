@@ -104,7 +104,7 @@ Verde: #3D6131
 Amarelo: #f1c40f
 Vermelho: #A1343C
 
-6. Medidas
+5. Medidas
 
 Foram adicionadas algumas medidas para visualização dos dados
 
