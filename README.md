@@ -1,6 +1,6 @@
 Bussinees Inteligence: Projeto de Dashboard para Football Analytics no Power BI
 
- 1.Conectar as fontes de dados
+ 1. Conectar as fontes de dados
 
 Tabela de clubes.csv
 
