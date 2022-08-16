@@ -1,10 +1,10 @@
 Bussinees Inteligence: Projeto de Dashboard para Football Analytics no Power BI
 
-1.Conectar as fontes de dados
+ 1.Conectar as fontes de dados
 
 Tabela de clubes.csv
 
-2. Ajustar, padronizar e  limpar os dados
+ 2. Ajustar, padronizar e  limpar os dados
 
 Deve-se deixar a tabela está na mesma tipagem de valores por isso vamos selecionar em "transformar os dados” para verificar.
 
@@ -14,7 +14,7 @@ Na tabela jogadores_tratados adicionamos uma coluna que concatena o game_id com 
 
 Concatenado = [game_id]&"-"&[club_id]
 
-3. Estabelecendo as relações entre as tabelas
+ 3. Estabelecendo as relações entre as tabelas
 
 Precisamos estabelecer as relações de cardinalidade para estabelecer os filtros dos dados.
 
@@ -58,7 +58,7 @@ CALENDAR("2012-01-01",Today()),
             "Trim_Ano", FORMAT([Date], "q") & "T" & YEAR([Date]),
             "Dia_Semana", FORMAT([Date], "ddd"))
 
-4. Dashboard do Clube
+ 4. Dashboard do Clube
 
 Agora podemos começar a aplicar as informações necessárias:
 
@@ -104,7 +104,7 @@ Verde: #3D6131
 Amarelo: #f1c40f
 Vermelho: #A1343C
 
-5. Medidas
+ 5. Medidas
 
 Foram adicionadas algumas medidas para visualização dos dados
 
